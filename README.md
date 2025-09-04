@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
+</p>
+
 # The Computational Ethnography Lab @ Rice University
 
 *Deploying and developing cutting-edge methodological techniques at the intersection of field research and computational social science to address complex problems of scientific and policy importance.*
@@ -50,7 +54,7 @@ Projects: NIH- and PCORI-funded collaborations on cancer, chronic pain, aging, a
 - **Toolkits**:  
   - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
 
-## Featured Visualizations
+## Sample Visualizations (note from cmap_visualization_toolkit, using public data on Scientists Careers)
 
 Examples from lab projects using qualitative and computational data:
 
@@ -62,8 +66,6 @@ Examples from lab projects using qualitative and computational data:
 
 ![Fieldwork Photo](images/fieldwork_photo.jpg)  
 *A photo from Professor Abramson’s fieldwork.*  
-
-> **Note:** Place the image files in an `/images/` folder in this repo.
 
 ## Affiliations
 
