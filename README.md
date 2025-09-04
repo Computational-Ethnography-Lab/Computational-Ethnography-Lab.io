@@ -10,7 +10,7 @@
 
 ## What is Computational Ethnography?
 
-Computational ethnography integrates computational techniques with the analysis of in-depth human data such as field observations and interviews. This hybrid method combines ethnography’s focus on meaning, context, and lived behavior with tools like natural language processing, machine learning, and visualization to support larger samples, identify patterns, validate typologies, and increase reproducibility. These tools extend rather than replace ethnographic interpretation and can benefit projects across scientific and applied contexts when used transparently (Abramson & Dohan 2015; Abramson et al. 2018).
+Computational ethnography integrates computational techniques with the analysis of in-depth human data such as ethnographic field observations and interviews. This hybrid method combines ethnography’s focus on meaning, context, and  real-world behavior with tools like natural language processing, machine learning, and data visualization to support larger studies, identify patterns, validate typologies, and increase the reproducibility of claims. These tools extend rather than replace ethnographic interpretation and can benefit projects across scientific and applied contexts when used transparently (Abramson & Dohan 2015; Abramson et al. 2018).
 
 ## The Computational Ethnography Lab (CEL)
 
@@ -20,20 +20,19 @@ The Computational Ethnography Lab is an interdisciplinary collective that develo
 
 **Corey M. Abramson, Ph.D.**  
 Associate Professor of Sociology, Rice University  
-Leadership Team, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
+Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
-Research areas: inequality, health, and culture through ethnography, interviews, surveys, and computational methods.  
-Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  
-Projects: NIH- and PCORI-funded collaborations on cancer, chronic pain, aging, and dementia care.  
-
+Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory // More [here](https://cmabramson.com/research)
+Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  More [here](https://cmabramson.com/books)
 - [Rice University Profile](https://profiles.rice.edu/faculty/corey-m-abramson)  
 - [Personal Webpage](https://cmabramson.com)
-
+  
 ## Key Collaborators
 
 - **Zhuofan Li, Ph.D.** — [Assistant Professor of Sociology, Virginia Tech](https://liberalarts.vt.edu/departments-and-schools/department-of-sociology/faculty/zhuofan-li.html)  
 - **Tara Prendergast, Ph.D. Candidate** — [School of Sociology, University of Arizona](https://sociology.arizona.edu/person/tara-prendergast)  
-- **Victoria (Yuhan) Nian, Undergraduate Student** — Statistics/Data Science, Rice University  
+- **Victoria (Yuhan) Nian, Undergraduate Student** — Statistics/Data Science, Rice University
+- **Jakira Silas, Graduate Student** – [Sociology, Rice University](https://profiles.rice.edu/student/jakira-silas)
 
 ## Selected Publications & Resources
 
@@ -47,7 +46,16 @@ Projects: NIH- and PCORI-funded collaborations on cancer, chronic pain, aging, a
 
 ## Pinned Repositories & Tutorials
 
-- **Replication Code & Data** *(to be linked when public)*  
+- **Replication Code & Data** *(to be linked when public)*
+
+*Cultural Mapping and Analysis Tools (CMAP)*
+- CMAP- Visualization Toolkit
+
+*replication code*
+- Heatmaps: [in progress]
+- Networks:
+- Other:   
+
 - **Tutorials**:  
   - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
   - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
