@@ -19,13 +19,14 @@ The Computational Ethnography Lab is an interdisciplinary collective that develo
 ## Principal Investigator
 
 **Corey M. Abramson, Ph.D.**  
-Associate Professor of Sociology, Rice University  
+Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
 Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory // More [here](https://cmabramson.com/research)
+
 Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  More [here](https://cmabramson.com/books)
-- [Rice University Profile](https://profiles.rice.edu/faculty/corey-m-abramson)  
-- [Personal Webpage](https://cmabramson.com)
+
+[Personal Webpage](https://cmabramson.com)
   
 ## Key Collaborators
 
@@ -34,7 +35,7 @@ Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University
 - **Victoria (Yuhan) Nian, Undergraduate Student** — Statistics/Data Science, Rice University
 - **Jakira Silas, Graduate Student** – [Sociology, Rice University](https://profiles.rice.edu/student/jakira-silas)
 
-## Selected Publications & Resources
+## Selected Publications
 
 - Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. [Link](https://contexts.org/blog/soc-ai/)  
 - Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography.” *Ethnography* 19(2):254–284. [DOI](https://doi.org/10.1177/1466138117725340)  
@@ -59,6 +60,7 @@ Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University
 - **Tutorials**:  
   - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
   - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
+
 - **Toolkits**:  
   - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
 
@@ -80,4 +82,7 @@ Examples from lab projects using qualitative and computational data:
 - [Department of Sociology, Rice University](https://sociology.rice.edu/)  
 - [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 - [Medical Cultures Lab, UCSF](https://www.cultureofmedicine.org)  
-- [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer)  
+- [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer)
+
+## Other Resources
+- in progress
