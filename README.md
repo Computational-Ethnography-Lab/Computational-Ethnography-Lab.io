@@ -53,24 +53,6 @@ Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University
 - CMAP- Visualization Toolkit
 - Data translation tool
 
-<div style="text-align: center;">
-<pre>
-                                                                        .
-╭────────────────────────────────────────────────────────────────────╮ │
-│  ╭─────────────── <strong>C-MAPS: CULTURAL MAPPING SYSTEM</strong>──────────────╮ │ │
-│  │                                                             │ │
-│  │              <em>Cleaning, Visualization, and Analysis System</em>     │ │
-│  │  <small>Schema Mapping + Validation / Disconfirmation Engine — v3.0</small>│ │
-│  │  <small>computational_ethnography_lab • Corey M. Abramson, Ph.D.</small>   │ │
-│  │                     <small>ca80@rice.edu</small>                           │ │
-│  ╰─────────────────────────────────────────────────────────────╯ │
-│                    <strong><em>*scaling human interpretation*</em></strong>                   │
-╰────────────────────────────────────────────────────────────────────╯
-</pre>
-</div>
-
-
-  
 **Replication Code & Data** *(to be linked when public)*
 
 *replication code*
@@ -78,14 +60,14 @@ Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University
 - Networks: [in progress]
 - Other: [in progress]   
 
-- **Video Tutorials**:
+**Video Tutorials**:
 - Set-up python environment (in progress)
 -  Set-up CMAP toolkit (in progress)
 -  CMAP Visualization Walkthrough (in progress)
 -  CMAP Visualization advanced walkthrough (in progress)
 -  Data connector walkthrough (in progress)
 
-- **Applied Blogs and Interactive Notebooks**:  
+**Applied Blogs and Interactive Notebooks**:  
   - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
   - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
   - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
