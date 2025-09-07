@@ -8,8 +8,7 @@
 
 You can download the latest vesion of the visualization toolkit [here](placeholder/)
 
-_⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated and may be incomplete or subject to change.
-_
+<sub><i>⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated and may be incomplete or subject to change.</i></sub>
 ---
 
 ## What is Computational Ethnography?
@@ -28,11 +27,11 @@ The Computational Ethnography Lab is an interdisciplinary group developing and a
 Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
-Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory // [More](https://cmabramson.com/research)
-
-Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong). 
-[Books](https://cmabramson.com/books)
-[Personal Webpage](https://cmabramson.com)
+Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory
+Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  
+[Research](https://cmabramson.com/research)  
+[Books](https://cmabramson.com/books)  
+[Personal Webpage](https://cmabramson.com)  
   
 ### Key Contributors
 - [**Zhuofan Li, Ph.D.**](https://liberalarts.vt.edu/departments-and-schools/department-of-sociology/faculty/zhuofan-li.html) — Assistant Professor of Sociology, Virginia Tech  
@@ -109,7 +108,7 @@ Examples from lab projects using qualitative and computational data:
 - [Department of Sociology, Rice University](https://sociology.rice.edu/)  
 - [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 - [Medical Cultures Lab, UCSF](https://www.cultureofmedicine.org)  
-- [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer)
+- [Center for Ethnographic Research, UC Berkeley](https://issi.berkeley.edu/cer)  
 
 ## Other Resources
 - in progress
