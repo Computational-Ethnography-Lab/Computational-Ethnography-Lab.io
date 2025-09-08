@@ -80,7 +80,7 @@ Examples are paired with qualitative data, to show both patterns and specifics:
 
 *Papers*
 - Heatmaps:
-Arteaga et al., Forthcoming,_The Gerontologist_,  [Understanding How Social Context Shapes Decisions to Seek Institutional Care: A Qualitative Study of Latinx Families Navigating Progressive Cognitive Decline](https://github.com/Computational-Ethnography-Lab/Computational-Ethnography-Lab/blob/013a9deca633c2ec51ec0f82079d772f343388f1/reproduction/latinx_array_final.R)
+Arteaga et al., Forthcoming,_The Gerontologist_,  [Understanding how social context shapes decisions to seek institutional care: A qualitative study of experiences of progressive cognitive decline among Latinx families. The Gerontologist.](https://github.com/Computational-Ethnography-Lab/Computational-Ethnography-Lab/blob/013a9deca633c2ec51ec0f82079d772f343388f1/reproduction/latinx_array_final.R)
 - Networks: [in progress]
 - Other: [in progress]
 
