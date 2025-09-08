@@ -37,10 +37,7 @@ Health policy: aging, alzheimer's disease and related dementias, patient decisio
  <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/9780190608491.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Cover 2" style="height: 400px; width: auto;">
 </div>
 
-[Research](https://cmabramson.com/research)  
-[Books](https://cmabramson.com/books)
-[Bio/CV](https://profiles.rice.edu/faculty/corey-m-abramson)
-[Personal Webpage](https://cmabramson.com)  
+[Research](https://cmabramson.com/research) , [Books](https://cmabramson.com/books) , [Bio/CV](https://profiles.rice.edu/faculty/corey-m-abramson) , [Personal Webpage](https://cmabramson.com)  
   
 ### Key Contributors
 - [**Zhuofan Li, Ph.D.**](https://liberalarts.vt.edu/departments-and-schools/department-of-sociology/faculty/zhuofan-li.html) — Assistant Professor of Sociology, Virginia Tech  
