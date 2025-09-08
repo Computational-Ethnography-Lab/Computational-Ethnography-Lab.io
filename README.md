@@ -6,7 +6,7 @@
 
 *Deploying and developing cutting-edge methodological techniques at the intersection of field research and computational social science to address complex problems of scientific and policy importance.*
 
-You can download the latest vesion of the visualization toolkit [here](placeholder/)
+You can download the latest vesion of the visualization toolkit [here](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) //See READ.md for instructions.
 
 <sub><i>⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated and may be incomplete or subject to change.</i></sub>
 ---
