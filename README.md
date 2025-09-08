@@ -30,7 +30,8 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory  
 Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  
 ![Book Covers](https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true
-)  
+)(https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/9780190608491.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true)
+  
 
 [Research](https://cmabramson.com/research)  
 [Books](https://cmabramson.com/books)  
