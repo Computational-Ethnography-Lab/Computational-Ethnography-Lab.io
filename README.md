@@ -66,15 +66,15 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 
 ### Cultural Mapping and Analysis Tools (CMAP)
 - CMAP- Visualization Toolkit
-*Sample Visualizations (note from cmap_visualization_toolkit, using public data on Scientists Careers)*
-
-Examples from lab projects using qualitative and computational data:
+*Sample Visualizations (from cmap_visualization_toolkit, using public data on Scientists Careers)*
+Examples are paired with qualitative data, to show both patterns and specifics:
 ![Heatmap Visualization](images/heatmap_visualization.png)  
-*A heatmap visualizing patterned variation in ethnographic data.*
+*A heatmap visualizing patterned variation in interviews*
 ![Semantic Network](images/semantic_network.png)  
-*A semantic network illustrating relationships between concepts in qualitative text.*
+*A semantic network illustrating the relationships between concepts in field notes and interviews.*
 
 *Data translation tool*
+- in progress
 
 ### Replication Code
 
@@ -90,7 +90,7 @@ Arteaga et al., Forthcoming,_The Gerontologist_,  [Understanding How Social Cont
   - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
 
 **Video Tutorials**:
-- Set-up python environment (in progress)
+-  Set-up python environment (in progress)
 -  Set-up CMAP toolkit (in progress)
 -  CMAP Visualization Walkthrough (in progress)
 -  CMAP Visualization advanced walkthrough (in progress)
