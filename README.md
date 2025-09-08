@@ -27,8 +27,8 @@ The Computational Ethnography Lab is an interdisciplinary group developing and a
 Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
-Social Science Research: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory  
-Health policy: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
+**Sociology**: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory  
+**Health policy**: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
 
 <div align="center">
   <img src="images/fieldwork_photo.jpg" alt="Fieldwork Photo">
