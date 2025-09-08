@@ -2,7 +2,7 @@
   <img src="images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
 </p>
 
-# The Computational Ethnography Lab @ Rice University
+# The Computational Ethnography Lab (CEL) @ Rice University
 
 *Deploying and developing cutting-edge methodological techniques at the intersection of field research and computational social science to address complex problems of scientific and policy importance.*
 
@@ -31,7 +31,8 @@ Social Science Research: stratification and inequality, health and medicine, cul
 Health policy: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
 
 **Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).
-<div style="display: flex; gap: 20px; align-items: flex-start;">
+
+<div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center;">
  <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Covers" style="height: 400px; width: auto;">
  <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/9780190608491.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Cover 2" style="height: 400px; width: auto;">
 </div>
@@ -47,9 +48,10 @@ Health policy: aging, alzheimer's disease and related dementias, patient decisio
 - [**Victoria (Yuhan) Nian**](https://www.linkedin.com/in/yuhannian) — Undergraduate Student, Statistics/Data Science, Rice University  
 - [**Jakira Silas, Graduate Student**](https://profiles.rice.edu/student/jakira-silas) — Graduate Student, Sociology, Rice University
 
-## Selected Publications
+## Selected Publications on Computational Ethnography
 *In progress:* **Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation.**
-- Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. [Link](https://contexts.org/blog/soc-ai/)  
+- Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. [Link](https://contexts.org/blog/soc-ai/)
+- Li, Zhuofan, and Corey M. Abramson. 2025. “Ethnography and Machine Learning: Synergies and New Directions.” Pp. 245–272 in The Oxford Handbook of the Sociology of Machine Learning, edited by C.Borch and J. P. Pardo-Guerra. Oxford: Oxford University Press.[Link](https://arxiv.org/pdf/2412.06087)  
 - Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography.” *Ethnography* 19(2):254–284. [DOI](https://doi.org/10.1177/1466138117725340)  
 - Abramson, Corey M., Zhuofan Li, Tara Prendergast, and Martín Sánchez-Jankowski. 2024. “Inequality in the Origins and Experiences of Pain.” *RSF Journal of the Social Sciences* 10(5):34–65. [Open Access PDF](https://www.rsfjournal.org/content/rsfjss/10/5/34.full.pdf)  
 - Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era.” *Socius*. [Open Access](https://pmc.ncbi.nlm.nih.gov/articles/PMC10120879/)  
