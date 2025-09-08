@@ -28,7 +28,7 @@ Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/fa
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
 **Sociology**: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory  
-**Health policy**: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
+**Health policy**: aging, alzheimer's disease and related dementias, social determinants of health, decision making, end of life, methodology (mixed-methods, big "qual" data)  
 
 <div align="center">
   <img src="images/fieldwork_photo.jpg" alt="Fieldwork Photo">
