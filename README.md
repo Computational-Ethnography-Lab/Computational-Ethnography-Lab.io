@@ -30,6 +30,9 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 Social Science Research: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory
 Health policy: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
 
+![Fieldwork Photo](images/fieldwork_photo.jpg)  
+*A photo from Professor Abramson’s fieldwork.*  
+
 **Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).
 
 <div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center;">
@@ -54,17 +57,32 @@ Health policy: aging, alzheimer's disease and related dementias, patient decisio
 - Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era.” *Socius*. [Open Access](https://pmc.ncbi.nlm.nih.gov/articles/PMC10120879/)  
 - Abramson, Corey M. and Daniel Dohan. 2015. “Beyond Text: Using Arrays to Represent and Analyze Ethnographic Data.” *Sociological Methodology* 45(1):272–319. [Open Access](https://pmc.ncbi.nlm.nih.gov/articles/PMC4730903)  
 
-## Pinned Repositories & Tutorials  
-*Cultural Mapping and Analysis Tools (CMAP)*
+## Tools, Code & Tutorials  
+
+### Cultural Mapping and Analysis Tools (CMAP)
 - CMAP- Visualization Toolkit
-- Data translation tool
+*Sample Visualizations (note from cmap_visualization_toolkit, using public data on Scientists Careers)*
 
-**Replication Code & Data** *(to be linked when public)*
+Examples from lab projects using qualitative and computational data:
+![Heatmap Visualization](images/heatmap_visualization.png)  
+*A heatmap visualizing patterned variation in ethnographic data.*
+![Semantic Network](images/semantic_network.png)  
+*A semantic network illustrating relationships between concepts in qualitative text.*
 
-*Replication code*
-- Heatmaps: [in progress]
+*Data translation tool*
+
+### Replication Code
+
+*Papers*
+- Heatmaps:
+Arteaga et al., Forthcoming,_The Gerontologist_,  [Understanding How Social Context Shapes Decisions to Seek Institutional Care: A Qualitative Study of Latinx Families Navigating Progressive Cognitive Decline](https://github.com/Computational-Ethnography-Lab/Computational-Ethnography-Lab/blob/013a9deca633c2ec51ec0f82079d772f343388f1/reproduction/latinx_array_final.R)
 - Networks: [in progress]
-- Other: [in progress]   
+- Other: [in progress]
+
+**Applied Blogs and Interactive Notebooks**:  
+  - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
+  - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
+  - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
 
 **Video Tutorials**:
 - Set-up python environment (in progress)
@@ -72,24 +90,6 @@ Health policy: aging, alzheimer's disease and related dementias, patient decisio
 -  CMAP Visualization Walkthrough (in progress)
 -  CMAP Visualization advanced walkthrough (in progress)
 -  Data connector walkthrough (in progress)
-
-**Applied Blogs and Interactive Notebooks**:  
-  - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
-  - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
-  - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
-
-## Sample Visualizations (note from cmap_visualization_toolkit, using public data on Scientists Careers)
-
-Examples from lab projects using qualitative and computational data:
-
-![Heatmap Visualization](images/heatmap_visualization.png)  
-*A heatmap visualizing patterned variation in ethnographic data.*
-
-![Semantic Network](images/semantic_network.png)  
-*A semantic network illustrating relationships between concepts in qualitative text.*
-
-![Fieldwork Photo](images/fieldwork_photo.jpg)  
-*A photo from Professor Abramson’s fieldwork.*  
 
 ## Affiliations
 
