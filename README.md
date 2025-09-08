@@ -27,8 +27,11 @@ The Computational Ethnography Lab is an interdisciplinary group developing and a
 Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
-Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory
+Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory  
 Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  
+![Book Covers](https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true
+)  
+
 [Research](https://cmabramson.com/research)  
 [Books](https://cmabramson.com/books)  
 [Personal Webpage](https://cmabramson.com)  
