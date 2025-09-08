@@ -36,7 +36,8 @@ Health policy: aging, alzheimer's disease and related dementias, patient decisio
 
 *"Sunday": A photo from Professor Abramson’s fieldwork.*  
 
-**Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).
+**Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press)
+*Beyond the Case* (Oxford University Press, with Neil Gong)
 
 <div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center;">
  <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Covers" style="height: 400px; width: auto;">
