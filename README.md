@@ -32,9 +32,10 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 
 <div align="center">
   <img src="images/fieldwork_photo.jpg" alt="Fieldwork Photo">
+  <p><em>"Sunday": A photo from Professor Abramson’s fieldwork.</em></p>
 </div>
 
-<p><em>`*"Sunday": A photo from Professor Abramson’s fieldwork.*  `</em></p>
+
 
 **Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press)  
 *Beyond the Case* (Oxford University Press, with Neil Gong)
