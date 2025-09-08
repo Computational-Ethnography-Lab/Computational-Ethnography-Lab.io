@@ -27,21 +27,25 @@ The Computational Ethnography Lab is an interdisciplinary group developing and a
 Associate Professor of Sociology, [Rice University](https://profiles.rice.edu/faculty/corey-m-abramson)  
 Co-Director, [Center for Computational Insights on Inequality and Society (CIISR)](https://ciisr.rice.edu/)  
 
-Research areas: inequality, health and medicine, culture, aging, methodology (qualitative and computational), theory  
-Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).  
-![Book Covers](https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true
-)![Book Cover 2](https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/9780190608491.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true)
-  
+Social Science Research: stratification and inequality, health and medicine, culture, aging, networks, methodology (qualitative, computational and mixed methods), theory
+Health policy: aging, alzheimer's disease and related dementias, patient decision making, social determinants of health, end of life, medical culture, methodology (mixed-methods, big "qual" data)  
+
+**Books:** *The End Game: How Inequality Shapes Our Final Years* (Harvard University Press), *Beyond the Case* (Oxford University Press, with Neil Gong).
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+ <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/Untitled.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Covers" style="height: 400px; width: auto;">
+ <img src="https://img1.wsimg.com/isteam/ip/dff15ce8-654f-45c1-b239-5b4ef2406687/9780190608491.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" alt="Book Cover 2" style="height: 400px; width: auto;">
+</div>
 
 [Research](https://cmabramson.com/research)  
-[Books](https://cmabramson.com/books)  
+[Books](https://cmabramson.com/books)
+[Bio/CV](https://profiles.rice.edu/faculty/corey-m-abramson)
 [Personal Webpage](https://cmabramson.com)  
   
 ### Key Contributors
 - [**Zhuofan Li, Ph.D.**](https://liberalarts.vt.edu/departments-and-schools/department-of-sociology/faculty/zhuofan-li.html) — Assistant Professor of Sociology, Virginia Tech  
 - [**Tara Prendergast, Ph.D. Candidate**](https://sociology.arizona.edu/person/tara-prendergast) — School of Sociology, University of Arizona  
 - [**Victoria (Yuhan) Nian**](https://www.linkedin.com/in/yuhannian) — Undergraduate Student, Statistics/Data Science, Rice University  
-- [**Jakira Silas, Graduate Student**](https://profiles.rice.edu/student/jakira-silas) — Sociology, Rice University
+- [**Jakira Silas, Graduate Student**](https://profiles.rice.edu/student/jakira-silas) — Graduate Student, Sociology, Rice University
 
 ## Selected Publications
 *In progress:* **Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation.**
@@ -51,15 +55,14 @@ Books: *The End Game: How Inequality Shapes Our Final Years* (Harvard University
 - Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2021. “Qualitative Coding in the Computational Era.” *Socius*. [Open Access](https://pmc.ncbi.nlm.nih.gov/articles/PMC10120879/)  
 - Abramson, Corey M. and Daniel Dohan. 2015. “Beyond Text: Using Arrays to Represent and Analyze Ethnographic Data.” *Sociological Methodology* 45(1):272–319. [Open Access](https://pmc.ncbi.nlm.nih.gov/articles/PMC4730903)  
 
-## Pinned Repositories & Tutorials
-
+## Pinned Repositories & Tutorials  
 *Cultural Mapping and Analysis Tools (CMAP)*
 - CMAP- Visualization Toolkit
 - Data translation tool
 
 **Replication Code & Data** *(to be linked when public)*
 
-*replication code*
+*Replication code*
 - Heatmaps: [in progress]
 - Networks: [in progress]
 - Other: [in progress]   
