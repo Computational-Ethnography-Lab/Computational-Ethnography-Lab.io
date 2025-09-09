@@ -2,13 +2,13 @@
   <img src="images/lab_banner.jpg" alt="Computational Ethnography Lab Banner" width="100%">
 </p>
 
-# The Computational Ethnography Lab (CEL) @ Rice University
+# The Computational Ethnography Lab (CEL) 
 
-*Deploying and developing cutting-edge methodological techniques at the intersection of field research and computational social science to address complex problems of scientific and policy importance.*
+*Deploying and developing cutting-edge methodological techniques at the intersection of field research and computational social science to address complex problems of scientific and policy importance.* Located @ Rice University
 
 You can download the latest vesion of the visualization toolkit [here](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) 
 
-<sub><i>⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated and may be incomplete or subject to change.</i></sub>
+<sub><i>⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated/added and may be incomplete or subject to change.</i></sub>
 ---
 
 ## What is Computational Ethnography?
