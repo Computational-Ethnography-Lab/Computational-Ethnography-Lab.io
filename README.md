@@ -72,7 +72,7 @@ Examples are paired with qualitative data, to show both patterns and specifics:
 *A heatmap visualizing patterned variation in interviews*
 ![Semantic Network](images/semantic_network.png)  
 *A semantic network illustrating the relationships between concepts in field notes and interviews.*
-![t-SNE Visual](images/semantic_network.png)  
+![t-SNE Visual](images/tsne.png)  
 *A t-SNE plot.*
 ![Wordcloud](images/wordcloud.png)  
 *A word-cloud, with user defined concept groups represented as color coding.*
