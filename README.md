@@ -91,7 +91,8 @@ Arteaga et al., Forthcoming,_The Gerontologist_,  [Understanding how social cont
 **Applied Blogs and Interactive Notebooks**:  
   - [Qualitative Coding Simplified](https://cmabramson.com/resources/f/qualitative-coding-simplified)  
   - [Sub-setting Qualitative Data for Machine Learning](https://cmabramson.com/resources/f/sub-setting-qualitative-data-for-machine-learning)  
-  - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)  
+  - [Using Machine Learning with Ethnographic Interviews (C-MAP Toolkit)](https://cmabramson.com/resources/f/using-machine-learning-with-ethnographic-interviews)
+  - [Introduction to Machine Learning for Coding Qualitative Researcher - Li et al.](https://github.com/lizhuofan95/ASA2022_Workshop)
 
 **Video Tutorials**:
 -  Set-up python environment (in progress)
