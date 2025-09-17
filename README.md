@@ -59,7 +59,7 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 
 ## Further Reading & Resources
 
-You can read a recent review article [here](https://osf.io/preprints/socarxiv/7bsgy_v1) and see more examples, scholarly references and principles [here](https://github.com/Computational-Ethnography-Lab).
+You can read a recent review article [here](https://osf.io/preprints/socarxiv/7bsgy_v1).
 
 #### Selected Publications on Computational Ethnography
 -   *Working Paper:* **Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation.** [Link](https://osf.io/preprints/socarxiv/7bsgy_v1)
