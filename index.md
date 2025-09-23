@@ -104,14 +104,30 @@ You can read our most recent review piece here [here](https://osf.io/preprints/s
 - CMAP- Visualization Toolkit
 *Sample Visualizations (from cmap_visualization_toolkit, using public data on Scientists Careers)*
 Examples are paired with qualitative data, to show both patterns and specifics:
-![Heatmap Visualization](images/heatmap_visualization.png)  
-*A heatmap visualizing patterned variation in interviews*
-![Semantic Network](images/semantic_network.png)  
-*A semantic network illustrating the relationships between concepts in field notes and interviews.*
-![t-SNE Visual](images/tsne.png)  
-*A t-SNE plot.*
-![Wordcloud](images/wordcloud.png)  
-*A word-cloud, with user defined concept groups represented as color coding.*
+<p align="center">
+<img src="images/heatmap_visualization.png" alt="Heatmap Visualization" width="800">
+</p>
+<p align="center">
+<em>A heatmap visualizing patterned variation in interviews</em>
+</p>
+<p align="center">
+<img src="images/semantic_network.png" alt="Semantic Network" width="800">
+</p>
+<p align="center">
+<em>A semantic network illustrating the relationships between concepts in field notes and interviews.</em>
+</p>
+<p align="center">
+<img src="images/tsne.png" alt="t-SNE Visual" width="800">
+</p>
+<p align="center">
+<em>A t-SNE plot.</em>
+</p>
+<p align="center">
+<img src="images/wordcloud.png" alt="Wordcloud" width="800">
+</p>
+<p align="center">
+<em>A word-cloud, with user defined concept groups represented as color coding.</em>
+</p>
 
 *Data translation tool*
 - in progress
@@ -171,4 +187,4 @@ For any inquiries or errors, please email me at corey.abramson@rice.edu
 ### _Anything else?_
 You can read a recent review piece about underlying principles of combining computation and qualitative analysis [here](https://osf.io/preprints/socarxiv/7bsgy_v1) and see more examples (over time). Check out [this page](https://github.com/Computational-Ethnography-Lab) over time for updates. 
 
-You can also send an email if you have thoughts, have an example to share, or want to contribute/collaborate/comment. 
+You can also send an email if you have thoughts, have an example to share, or want to contribute/collaborate/comment.
