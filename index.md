@@ -132,7 +132,7 @@ Examples are paired with qualitative data, to show both patterns and specifics:
 </p>
 
 *Data translation tool*
-- in progress
+- [CMAP QDPX Converter](https://github.com/Computational-Ethnography-Lab/cmap_qdpx_converter) — turn qualitative coding from ATLAS.ti, NVivo, or MAXQDA into analysis-ready CMAP-schema CSV (implements the schema in Abramson et al. 2026, *Annual Review of Sociology*).
 
 ### Replication Code
 
