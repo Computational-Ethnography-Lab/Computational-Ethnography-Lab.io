@@ -10,7 +10,9 @@ You can download the latest version of our CMAP* Visualization Toolkit [here](ht
 _* CMAP = Cultural Mapping and Pattern Analysis_  
 [![GitHub release](https://img.shields.io/github/v/release/Computational-Ethnography-Lab/cmap_visualization_toolkit?include_prereleases)](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit/releases)
 
-Forthcoming Annual Review Paper on AI and Qualitative Research [here](https://osf.io/preprints/socarxiv/7bsgy_v4)
+New Annual Review of Sociology article on Qualitative Research, AI and Computation [here](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836)
+
+New American Sociological Review article on Temporal Misalignment and Unequal Agency [here](https://journals.sagepub.com/doi/10.1177/00031224261448220)
 
 <sub><i>⚠️ Repository Status: This GitHub repository is currently under development. Documentation, code, and features are actively being updated/added and may be incomplete or subject to change.</i></sub>
 
@@ -35,7 +37,7 @@ Computational ethnography is a methodological approach that combines in-depth an
 
 A core principle is connecting levels of analysis—much like alternating between digital maps and street views—to gain a broader vantage that may be obscured by either the scope (quantitative) or granularity (qualitative) of a single mode of inquiry. In this sense, computational ethnography extends the classical sociological strategy of using multiple methods, data types, and forms of analysis to better understand topics of importance (Du Bois 1899, 1900; Small 2011).
 
-Computational ethnography extends rather than replaces human reasoning by linking aggregate patterns with contextual details, and by enabling the analysis of larger volumes of text than would be feasible without computation. The goal is not to remove, but to add to, the contextual depth that distinguishes ethnographic work, while enhancing the capacity to answer new questions or revisit old ones in new ways (c.f. Abramson et al. 2018, 2025). This goal overlaps with emergent scholarship at the intersection of 'scaling up' field methods and connecting “big data” to in-depth content to better understand complex issues in fields like health, culture, stratification, and social networks (Abramson and Dohan 2015; Breiger 2015; Hanson and Theis 2024; Nelson 2020; DiMaggio 2015).
+Computational ethnography extends rather than replaces human reasoning by linking aggregate patterns with contextual details, and by enabling the analysis of larger volumes of text than would be feasible without computation. The goal is not to remove, but to add to, the contextual depth that distinguishes ethnographic work, while enhancing the capacity to answer new questions or revisit old ones in new ways (c.f. Abramson et al. 2018, 2026). This goal overlaps with emergent scholarship at the intersection of 'scaling up' field methods and connecting “big data” to in-depth content to better understand complex issues in fields like health, culture, stratification, and social networks (Abramson and Dohan 2015; Breiger 2015; Hanson and Theis 2024; Nelson 2020; DiMaggio 2015).
 
 ## People
 
@@ -78,10 +80,11 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 - [**Kieran Turner, Graduate Student**](https://profiles.rice.edu/student/kieran-turner) - Graduate Student, Sociology, Rice University
 
 ## Further Reading and Resources
-You can read our most recent review piece here [here](https://osf.io/preprints/socarxiv/7bsgy_v1). 
+You can read our most recent review piece [here](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836).
 
 ### Selected Publications on Computational Ethnography
--   *Review Paper*: Abramson, Corey M., Tara Prendergast, Zhuofan Li, Daniel Dolan. 2026 (forthcoming). “Qualitative Research in an Era of A: A Pragmatic Approach to Data Analysis, Workflow, and Computation”. *Annual Review of Sociology.* Vol 52. (preprint: link)  [Link]([https://osf.io/preprints/socarxiv/7bsgy_v1](https://osf.io/preprints/socarxiv/7bsgy_v4))
+-   *Review Paper*: Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” *Annual Review of Sociology* 52(1):35–61. [Link](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) | [DOI](https://doi.org/10.1146/annurev-soc-011824-104836)
+-   *Time and Inequality at the End of Life*: Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2026. “Temporal Misalignment and Unequal Agency: What Terminal Cancer Patients Teach Us about Time and Inequality.” *American Sociological Review* 91(4):545–571. [Link](https://journals.sagepub.com/doi/10.1177/00031224261448220) | [DOI](https://doi.org/10.1177/00031224261448220)
 -   *Blog on Uses:* Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. [Link](https://contexts.org/blog/soc-ai/)
 -   *Workflow*: Li, Zhuofan, and Corey M. Abramson. 2025. “Ethnography and Machine Learning: Synergies and New Directions.” Pp. 245–272 in *The Oxford Handbook of the Sociology of Machine Learning*, edited by C.Borch and J. P. Pardo-Guerra. Oxford: Oxford University Press. [Link](https://arxiv.org/pdf/2412.06087)
 -   *Principles*: Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography.” *Ethnography* 19(2):254–284. [DOI](https://doi.org/10.1177/1466138117725340)
@@ -91,7 +94,7 @@ You can read our most recent review piece here [here](https://osf.io/preprints/s
 
 ### Citations 
 - Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography: Improving Transparency, Replicability, and Validity for Realist Approaches to Ethnographic Analysis.” Ethnography 19(2):254–84. doi:10.1177/1466138117725340.
-- Abramson, Corey, Zhuofan Li, Tara Prendergast, and Daniel Dohan. 2025. “Qualitative Research in an Era of AI: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” SocArXiv. September 16. doi:10.31235/osf.io/7bsgy_v1.
+- Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” Annual Review of Sociology 52(1):35–61. doi:10.1146/annurev-soc-011824-104836.
 - Breiger, Ronald L. 2015. “Scaling Down.” Big Data & Society 83(7):42–44. doi:10.1177/2053951715602497.
 - Du Bois, W. E. B. (William Edward Burghardt). 1899. The Philadelphia Negro: A Social Study. Philadelphia: University of Pennsylvania Press.
 - Du Bois, W. E. B. (William Edward Burghardt). 1900. Charts and Graphs Showing the Condition of African Americans at the Turn of the Century Exhibited at the Paris Exposition Universelle in 1900. Washington, D.C.: Library of Congress, Prints & Photographs Division.
@@ -172,7 +175,7 @@ No, not in our opinion. Because:
 
 2. Fields including sociology have long combined multiple research methods, often with a goal of triangulation or connecting different levels of analysis. Long before modern computing or the term mixed-methods gained popularity, scholars including Du Bois used fieldwork, history, data visualization, and surveys in parallel to generate insights. In the modern era, Anthropologist Roy D’Andrade introduced heat maps to visualize linguistic domains and cognitive schema in the 1970s, ethnographers have employed social network plots to chart cliques, and scholars of culture (e.g. Bearman, Cerulo, Mohr) have been combining rich historical information with formal and computational analyses since shortly after the entry of modern computing. 
 
-3. The use of computation was already widespread when I began my career as an undergraduate at Berkeley's [Center for Ethnographic Research](https://issi.berkeley.edu/cer/about). This is seen not only in computer-assisted qualitative data analysis software (CAQDAS- which I taught for decades), statistical computing, and the current [proliferation of AI](https://www.cultureofmedicine.org/blog/a-silicon-cage-qualitative-research-in-the-era-of-ai), but in myriad digital tools used in methods assumed to be analog (like ethnography). The contours of algorithmic/ordinal society shape our work in ways both overt and subtle. Grammar checkers and auto-complete suggestions nudge our use of language, indices of books and articles in libraries shape what we read (and how works get cited), sorting algorithms order our web searches, targeted marketing and news feeds shape our perceptions and mood during downtime, even before chatbots, automations and deepfakes. This makes [thoughtful use of qualitative computing](https://osf.io/preprints/socarxiv/7bsgy_v1), and perhaps social scientific inquiry using in-depth methods to understand life in situ, more important than ever. The challenge of navigating technology is not new however, and has some inspiring parallels in how thinkers repurposed  technologies like filing cabinets to [facilitate rigorous and imaginative social inquiry](https://contexts.org/blog/soc-ai/) in previous eras.  
+3. The use of computation was already widespread when I began my career as an undergraduate at Berkeley's [Center for Ethnographic Research](https://issi.berkeley.edu/cer/about). This is seen not only in computer-assisted qualitative data analysis software (CAQDAS- which I taught for decades), statistical computing, and the current [proliferation of AI](https://www.cultureofmedicine.org/blog/a-silicon-cage-qualitative-research-in-the-era-of-ai), but in myriad digital tools used in methods assumed to be analog (like ethnography). The contours of algorithmic/ordinal society shape our work in ways both overt and subtle. Grammar checkers and auto-complete suggestions nudge our use of language, indices of books and articles in libraries shape what we read (and how works get cited), sorting algorithms order our web searches, targeted marketing and news feeds shape our perceptions and mood during downtime, even before chatbots, automations and deepfakes. This makes [thoughtful use of qualitative computing](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836), and perhaps social scientific inquiry using in-depth methods to understand life in situ, more important than ever. The challenge of navigating technology is not new however, and has some inspiring parallels in how thinkers repurposed  technologies like filing cabinets to [facilitate rigorous and imaginative social inquiry](https://contexts.org/blog/soc-ai/) in previous eras.  
 
 ### _Can I Use Your Tools If I Don’t Agree With You About Something?_
 Yes. Absolutely.  
@@ -187,6 +190,6 @@ License information is located in the toolkit repositories. This is free softwar
 For any inquiries or errors, please email me at corey.abramson@rice.edu
 
 ### _Anything else?_
-You can read a recent review piece about underlying principles of combining computation and qualitative analysis [here](https://osf.io/preprints/socarxiv/7bsgy_v1) and see more examples (over time). Check out [this page](https://github.com/Computational-Ethnography-Lab) over time for updates. 
+You can read a recent review piece about underlying principles of combining computation and qualitative analysis [here](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) and see more examples (over time). Check out [this page](https://github.com/Computational-Ethnography-Lab) over time for updates. 
 
 You can also send an email if you have thoughts, have an example to share, or want to contribute/collaborate/comment.
