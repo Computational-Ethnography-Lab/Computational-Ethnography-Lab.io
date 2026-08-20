@@ -1,0 +1,228 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Pragmatic Approach to AI in Qualitative Research</title>
+<meta name="author" content="Corey Abramson">
+<link rel="canonical" href="https://computationalethnography.org/writing/qualitative-research-in-an-era-of-ai/">
+<meta property="og:title" content="A Pragmatic Approach to AI in Qualitative Research">
+<meta property="og:description" content="We have a new article in the Annual Review of Sociology on artificial intelligence (AI), computational social science (CSS), and qualitative research, particularly qualitative data analysis.">
+<meta property="og:url" content="https://computationalethnography.org/writing/qualitative-research-in-an-era-of-ai/">
+<meta name="citation_doi" content="10.1146/annurev-soc-011824-104836">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    color-scheme: light;
+    --accent: #c45c26;
+    --header: #e87840;
+    --text: #2b2b2b;
+    --muted: #6b6b6b;
+    --bg: #ffffff;
+    --panel: #f4f4f4;
+    --border: #e6e6e6;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .site-bar {
+    background: var(--header);
+    color: #111;
+  }
+  .site-bar-inner {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0.85rem 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .brand {
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+    font-size: 0.92rem;
+  }
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.1rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .site-nav a {
+    color: #111;
+    text-decoration: none;
+  }
+  .site-nav a:hover,
+  .site-nav a[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.22em;
+  }
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.35rem 1.15rem 3.5rem;
+  }
+  .crumb {
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.92rem;
+    margin: 0 0 1.15rem;
+  }
+  .crumb:hover { text-decoration: underline; }
+  h1 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 0.45rem;
+  }
+  .date {
+    margin: 0 0 0.15rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .byline {
+    margin: 0 0 1.5rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  h2 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 1.28rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 2rem 0 0.75rem;
+  }
+  p { margin: 0 0 1.05rem; }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    overflow-wrap: anywhere;
+  }
+  .related {
+    margin-top: 2.75rem;
+    padding: 1.35rem 1.15rem 0.35rem;
+    background: var(--panel);
+    border-top: 1px solid var(--border);
+  }
+  .related h2 {
+    margin-top: 0;
+    font-size: 1.15rem;
+    letter-spacing: 0.01em;
+  }
+  .related ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .related li {
+    margin: 0 0 1.1rem;
+    padding-bottom: 1.05rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+  .related li:last-child {
+    border-bottom: 0;
+  }
+  .site-foot {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0 1.15rem 2.5rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  @media (min-width: 720px) {
+    html { font-size: 18px; }
+    .wrap { padding: 2rem 1.5rem 4rem; }
+    h1 { font-size: 2.35rem; }
+    .related { padding: 1.6rem 1.5rem 0.4rem; }
+  }
+  @media (max-width: 560px) {
+    .site-bar-inner { flex-direction: column; align-items: flex-start; }
+    h1 { font-size: 1.7rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="site-bar">
+  <div class="site-bar-inner">
+    <a class="brand" href="https://cmabramson.com/home">Corey M. Abramson</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="https://computationalethnography.org/">Home</a>
+      <a href="https://cmabramson.com/resources">Resources</a>
+      <a href="https://computationalethnography.org/writing/" aria-current="page">Writing</a>
+      <a href="https://computationalethnography.org/writing/from-carbon-paper-to-code/">Essay</a>
+    </nav>
+  </div>
+</header>
+
+<article class="wrap">
+<p><a class="crumb" href="https://computationalethnography.org/">&lt; Lab home</a>
+ · <a class="crumb" href="https://computationalethnography.org/writing/">Writing</a></p>
+<h1>A Pragmatic Approach to AI in Qualitative Research</h1>
+<p class="date">2026</p>
+<p class="byline">By Corey Abramson</p>
+
+<p>We have a new article in the Annual Review of Sociology on <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836">artificial intelligence (AI), computational social science (CSS), and qualitative research</a>, particularly qualitative data analysis.</p>
+
+<p>Our argument is straightforward: AI is not something social scientists can simply “opt in” to or “opt out” of. AI already shapes the tools we use to search, transcribe, analyze, proofread, and circulate research. It also affects high-stakes domains where social scientists conduct research and help shape practice, including health, organizational life, and social inequality.</p>
+
+<p>We make the case for a pragmatic approach to research that neither fetishizes technologies nor rejects them a priori. Instead, we ask what each tool makes possible, what it may distort, and whether it serves our methodological principles and ethical commitments.</p>
+
+<p>Drawing on decades of work connecting in-depth qualitative data (including fieldnotes, interviews, and other texts) with computational social science, we identify five patterns of engagement likely to become more prominent with AI: streamlining workflows, scaling projects, hybrid analysis combining breadth and depth, studying computation as an object of analysis, and principled non-use.</p>
+
+<p>For us (and others), the promise of advanced computation is not simply speed or efficiency, but greater accuracy and new analytic possibilities. In our own work, small local language models paired with human review can help detect errors, check coding, map broader patterns, and identify disconfirming cases without transmitting data to external servers. We discuss these possibilities alongside their risks and potential mitigations.</p>
+
+<p><a href="https://computationalethnography.org/writing/from-carbon-paper-to-code/">W. E. B. Du Bois’s data visualizations and C. Wright Mills’s</a> filing cabinet offer historical examples of social scientists pragmatically repurposing technologies with complex histories in pursuit of rigorous insight. We share examples from scaled, team-based ethnographies of inequality, aging, and life with terminal illness. These include applications in a recent American Sociological Review article on terminal cancer and agency at the end of life and a forthcoming Social Science &amp; Medicine article on life with dementia. Across these projects, we have used computational methods to extend rather than replace human insight. We hope that discussing our process and decisions is useful as others decide what makes sense for their own work.</p>
+
+<p>Because the technical side of AI changes (very) rapidly, we focus on methods, workflows, and tensions that persist even as tools change: the role of researchers working alongside communities, pressures to keep up with the “algo-Joneses,” and the distinction between scientism and rigor. The article and supplement link to open-source code, resources, and workflows we have been compiling for several years, with generous feedback from colleagues and students.</p>
+
+<p>Article:<br>
+Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” Annual Review of Sociology 52(1):35–61.<br>
+<a href="https://doi.org/10.1146/annurev-soc-011824-104836">https://doi.org/10.1146/annurev-soc-011824-104836</a></p>
+
+<p>Supplemental appendix:<br>
+<a href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836#supplementary_data">https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836#supplementary_data</a></p>
+
+<p>Open-source code, resources, and workflows:<br>
+<a href="https://github.com/Computational-Ethnography-Lab/teaching">https://github.com/Computational-Ethnography-Lab/teaching</a></p>
+</article>
+
+<section class="related" aria-labelledby="related-heading">
+  <div class="wrap" style="padding-top:0;padding-bottom:2rem;">
+    <h2 id="related-heading">Related</h2>
+    <ul>
+      <li>Supplemental appendix: <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836#supplementary_data">https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836#supplementary_data</a></li>
+      <li>Open-source code, resources, and workflows: <a href="https://github.com/Computational-Ethnography-Lab/teaching">https://github.com/Computational-Ethnography-Lab/teaching</a></li>
+      <li>Related essay: Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” <a href="https://computationalethnography.org/writing/from-carbon-paper-to-code/">Lab copy</a></li>
+    </ul>
+  </div>
+</section>
+
+<p class="site-foot">Hosted by the <a href="https://computationalethnography.org/">Computational Ethnography Lab</a>.</p>
+</body>
+</html>

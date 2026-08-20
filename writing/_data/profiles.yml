@@ -1,0 +1,13 @@
+profiles:
+  - label: "LinkedIn"
+    href: "https://www.linkedin.com/in/corey-m-abramson-328926153"
+    rel: "me"
+  - label: "Personal site"
+    href: "https://cmabramson.com"
+    rel: "me"
+  - label: "Lab GitHub"
+    href: "https://github.com/Computational-Ethnography-Lab"
+    rel: ""
+  - label: "Google Scholar"
+    href: "https://scholar.google.com/citations?user=vBMsaYwAAAAJ&hl=en"
+    rel: "me"
