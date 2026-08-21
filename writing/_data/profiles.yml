@@ -11,3 +11,6 @@ profiles:
   - label: "Google Scholar"
     href: "https://scholar.google.com/citations?user=vBMsaYwAAAAJ&hl=en"
     rel: "me"
+  - label: "My Bibliography"
+    href: "https://www.ncbi.nlm.nih.gov/myncbi/corey.abramson.1/bibliography/public/"
+    rel: "me"

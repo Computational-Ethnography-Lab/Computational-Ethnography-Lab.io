@@ -158,7 +158,9 @@ def link_bits(row: dict[str, str]) -> str:
 
 
 def render_item(row: dict[str, str]) -> str:
-    return f"<li>{citation_core(row)}{link_bits(row)}</li>"
+    work_id = (row.get("id") or "").strip()
+    id_attr = f' id="{html.escape(work_id, quote=True)}"' if work_id else ""
+    return f"<li{id_attr}>{citation_core(row)}{link_bits(row)}</li>"
 
 
 def sort_rows(
@@ -181,6 +183,27 @@ def render_list(
 ) -> str:
     items = "\n".join(render_item(r) for r in sort_rows(rows, ascending=ascending))
     return f'<ul class="works">\n{items}\n</ul>'
+
+
+CULTURE_SEE_ALSO = (
+    ("rsf-pain-2024", "Abramson et al. 2024"),
+    ("asr-2026", "Li, Dohan, and Abramson 2026"),
+    ("end-game-2015", "Abramson 2015"),
+    ("who-are-the-clients-2009", "Abramson 2009"),
+)
+
+
+def culture_see_also_html(works: list[dict[str, str]]) -> str:
+    known = {row.get("id") for row in works}
+    bits: list[str] = []
+    for work_id, label in CULTURE_SEE_ALSO:
+        if work_id not in known:
+            raise SystemExit(f"FAIL: see-also missing work {work_id}")
+        bits.append(
+            f'<a href="#{html.escape(work_id, quote=True)}">'
+            f"{html.escape(label, quote=False)}</a>"
+        )
+    return f'<p class="see-also">See also {"; ".join(bits)}.</p>'
 
 
 def footer_html(profiles: list[dict[str, str]]) -> str:
@@ -226,6 +249,7 @@ def page_html(works: list[dict[str, str]], profiles: list[dict[str, str]]) -> st
         and r.get("method_group") == "other"
     ]
     commentary = [r for r in works if r.get("section") == "commentary"]
+    curricula = [r for r in works if r.get("section") == "curricula"]
     software = [r for r in works if r.get("section") == "software"]
     required = {
         "books": books,
@@ -234,6 +258,7 @@ def page_html(works: list[dict[str, str]], profiles: list[dict[str, str]]) -> st
         "ai_ml": ai_ml,
         "other": other,
         "commentary": commentary,
+        "curricula": curricula,
         "software": software,
     }
     for key, rows in required.items():
@@ -244,12 +269,20 @@ def page_html(works: list[dict[str, str]], profiles: list[dict[str, str]]) -> st
             f"<h2>Books</h2>\n{render_list(books, ascending=True)}",
             "<h2>Articles</h2>",
             f"<h3>Health and Inequality</h3>\n{render_list(health)}",
-            f"<h3>Theory (Culture and Action)</h3>\n{render_list(culture)}",
+            (
+                "<h3>Theory (Culture and Action)</h3>\n"
+                f"{culture_see_also_html(works)}\n"
+                f"{render_list(culture)}"
+            ),
             "<h3>Methods</h3>",
             f"<h4>AI and Machine Learning</h4>\n{render_list(ai_ml)}",
-            f"<h4>Other methods</h4>\n{render_list(other)}",
+            (
+                "<h4>Comparative Ethnography and Logics of Inquiry</h4>\n"
+                f"{render_list(other)}"
+            ),
             f"<h2>Blogs and Commentary</h2>\n{render_list(commentary)}",
-            f"<h2>Software</h2>\n{render_list(software)}",
+            f"<h2>Public Methods Resources</h2>\n{render_list(curricula)}",
+            f"<h2>Software and Code</h2>\n{render_list(software)}",
         ]
     )
     return f"""---
@@ -279,6 +312,7 @@ layout: null
   h4 {{ font-size: 1rem; margin: 1rem 0 0.4rem; font-weight: 600; }}
   ul.works {{ padding-left: 1.2rem; }}
   ul.works li {{ margin: 0 0 0.85rem; }}
+  .see-also {{ color: #8b949e; font-size: 0.95rem; margin: 0 0 0.6rem; }}
   .hub-foot {{ margin-top: 2rem; color: #8b949e; font-size: 0.85rem; }}
   .hub-foot a {{ color: #8b949e; }}
   .lab-nav {{ margin: 0 0 1rem; }}
@@ -297,18 +331,33 @@ layout: null
 def main() -> None:
     works = load_yaml_maps(WORKS_PATH, "works")
     profiles = load_yaml_maps(PROFILES_PATH, "profiles")
+    for work_id in (
+        "ai-wiki-2026",
+        "opensource-teaching",
+        "methods-blog-coding-simplified-2022",
+        "methods-blog-subsetting-2022",
+    ):
+        rows = [r for r in works if r.get("id") == work_id]
+        if len(rows) != 1 or rows[0].get("section") != "curricula":
+            raise SystemExit(f"FAIL: {work_id} must be section curricula, not articles")
     text = page_html(works, profiles)
     if not text.startswith("---\nlayout: null\n---\n"):
         raise SystemExit("FAIL: hub missing layout: null")
     if 'href=""' in text:
         raise SystemExit("FAIL: empty href")
-    if "reporter.nih.gov" in text.lower() or "ncbi.nlm.nih.gov/myncbi" in text.lower():
-        raise SystemExit("FAIL: NIH person link in hub")
+    if "reporter.nih.gov" in text.lower():
+        raise SystemExit("FAIL: NIH RePORTER link in hub")
+    allowed_myncbi = (
+        "https://www.ncbi.nlm.nih.gov/myncbi/corey.abramson.1/bibliography/public/"
+    )
+    if "ncbi.nlm.nih.gov/myncbi" in text.lower() and allowed_myncbi not in text:
+        raise SystemExit("FAIL: unexpected NCBI My Bibliography URL")
     locked = [
         "https://www.linkedin.com/in/corey-m-abramson-328926153",
         "https://cmabramson.com",
         "https://github.com/Computational-Ethnography-Lab",
         "user=vBMsaYwAAAAJ",
+        allowed_myncbi,
         "/writing/qualitative-research-in-an-era-of-ai/",
         "/writing/from-carbon-paper-to-code/",
         ">Books<",
@@ -317,9 +366,22 @@ def main() -> None:
         ">Theory (Culture and Action)<",
         ">Methods<",
         ">AI and Machine Learning<",
-        ">Other methods<",
+        ">Comparative Ethnography and Logics of Inquiry<",
         ">Blogs and Commentary<",
-        ">Software<",
+        ">Public Methods Resources<",
+        ">Software and Code<",
+        "https://github.com/Computational-Ethnography-Lab/ai-wiki",
+        "https://github.com/Computational-Ethnography-Lab/teaching",
+        "https://aihorizons.io/qualitative-coding-simplified/",
+        "https://aihorizons.io/sub-setting-qualitative-data-for-machine-learning-or-export/",
+        "Everything You Wanted to Know About AI (in social science)",
+        "Qualitative Coding Simplified",
+        "Sub-setting Qualitative Data for Machine Learning",
+        "Guidelines for Conducting and Presenting Qualitative Research in PCOR",
+        'href="#rsf-pain-2024"',
+        'href="#asr-2026"',
+        'href="#end-game-2015"',
+        'href="#who-are-the-clients-2009"',
         "sagesociology.libsyn.com",
         "cmap_qdpx_converter",
         "ASA2022_Workshop",
@@ -338,6 +400,10 @@ def main() -> None:
             continue
         if needle not in text:
             raise SystemExit(f"FAIL: missing {needle}")
+    if ">Other methods<" in text:
+        raise SystemExit("FAIL: residual Other methods heading")
+    if ">Software<" in text:
+        raise SystemExit("FAIL: residual Software heading")
     if ">Featured<" in text:
         raise SystemExit("FAIL: Featured heading should not appear")
     if ">In progress<" in text or "Unequal Anatomies" in text:
@@ -346,6 +412,13 @@ def main() -> None:
         raise SystemExit("FAIL: cut intro still present")
     if text.count("From Carbon Paper to Code") != 1:
         raise SystemExit("FAIL: Contexts should appear once")
+    articles_block = text.split("<h2>Blogs and Commentary</h2>")[0]
+    if "ai-wiki" in articles_block or "Everything You Wanted to Know About AI" in articles_block:
+        raise SystemExit("FAIL: wiki listed under Articles")
+    if "Computational Analysis for Qualitative Data" in articles_block:
+        raise SystemExit("FAIL: teaching repo listed under Articles")
+    if "Qualitative Coding Simplified" in articles_block:
+        raise SystemExit("FAIL: methods blog listed under Articles")
     OUT_PATH.write_text(text, encoding="utf-8")
     print(f"wrote {OUT_PATH} bytes={OUT_PATH.stat().st_size} works={len(works)}")
 
