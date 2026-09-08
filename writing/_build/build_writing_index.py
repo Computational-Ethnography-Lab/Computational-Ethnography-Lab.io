@@ -76,10 +76,27 @@ def locator_text(row: dict[str, str]) -> str:
     return ""
 
 
+def hosted_href(row: dict[str, str]) -> str:
+    hosted = (row.get("hosted_path") or "").strip()
+    if not hosted:
+        return ""
+    if hosted.startswith("http"):
+        return hosted
+    return f"https://computationalethnography.org{hosted}"
+
+
+def linked_title(row: dict[str, str]) -> str:
+    title = html.escape(row.get("title", ""), quote=False)
+    href = hosted_href(row)
+    if not href:
+        return title
+    return f'<a href="{html.escape(href, quote=True)}">{title}</a>'
+
+
 def citation_core(row: dict[str, str]) -> str:
     authors = html.escape(row.get("authors", ""), quote=False).rstrip(".")
     year = html.escape(row.get("year", ""), quote=False)
-    title = html.escape(row.get("title", ""), quote=False)
+    title = linked_title(row)
     venue = html.escape(row.get("venue", ""), quote=False)
     extra = html.escape((row.get("extra") or "").strip(), quote=False)
     isbn = (row.get("isbn") or "").strip()
@@ -137,14 +154,6 @@ def link_bits(row: dict[str, str]) -> str:
     alt = (row.get("alt_url") or "").strip()
     if alt and "doi.org/" not in alt:
         _append_link(bits, seen, alt)
-    hosted = (row.get("hosted_path") or "").strip()
-    if hosted:
-        href = (
-            hosted
-            if hosted.startswith("http")
-            else f"https://computationalethnography.org{hosted}"
-        )
-        _append_link(bits, seen, href)
     podcast = (row.get("podcast_url") or "").strip()
     if podcast:
         _append_link(bits, seen, podcast, "Podcast")
@@ -360,6 +369,7 @@ def main() -> None:
         allowed_myncbi,
         "/writing/qualitative-research-in-an-era-of-ai/",
         "/writing/from-carbon-paper-to-code/",
+        "/writing/temporal-misalignment-and-unequal-agency/",
         ">Books<",
         ">Articles<",
         ">Health and Inequality<",
