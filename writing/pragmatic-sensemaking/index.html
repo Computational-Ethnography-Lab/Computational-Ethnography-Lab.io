@@ -1,0 +1,263 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapping the Cultural Work of People Living with Dementia and Their Care-Partners</title>
+<meta name="author" content="Corey Abramson">
+<link rel="canonical" href="https://computationalethnography.org/writing/pragmatic-sensemaking/">
+<meta property="og:title" content="Mapping the Cultural Work of People Living with Dementia and Their Care-Partners">
+<meta property="og:description" content="A new Social Science &amp; Medicine article on how people living with dementia and their care partners make sense of everyday life.">
+<meta property="og:url" content="https://computationalethnography.org/writing/pragmatic-sensemaking/">
+<meta property="og:image" content="https://computationalethnography.org/writing/pragmatic-sensemaking/fig1_semantic_network.jpg">
+<meta name="citation_doi" content="10.1016/j.socscimed.2026.119829">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+
+  :root {
+    color-scheme: light;
+    --accent: #c45c26;
+    --header: #e87840;
+    --text: #2b2b2b;
+    --muted: #6b6b6b;
+    --bg: #ffffff;
+    --panel: #f4f4f4;
+    --border: #e6e6e6;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 17px; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .site-bar {
+    background: var(--header);
+    color: #111;
+  }
+  .site-bar-inner {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0.85rem 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .brand {
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #111;
+    text-decoration: none;
+    font-size: 0.92rem;
+  }
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem 1.1rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .site-nav a {
+    color: #111;
+    text-decoration: none;
+  }
+  .site-nav a:hover,
+  .site-nav a[aria-current="page"] {
+    text-decoration: underline;
+    text-underline-offset: 0.22em;
+  }
+  .wrap {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.35rem 1.15rem 3.5rem;
+  }
+  .crumb {
+    display: inline-block;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.92rem;
+    margin: 0 0 1.15rem;
+  }
+  .crumb:hover { text-decoration: underline; }
+  h1 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 0.45rem;
+  }
+  .date {
+    margin: 0 0 0.15rem;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .byline {
+    margin: 0 0 1.5rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  h2 {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    font-size: 1.28rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 2rem 0 0.75rem;
+  }
+  p { margin: 0 0 1.05rem; }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.14em;
+    overflow-wrap: anywhere;
+  }
+  figure {
+    margin: 1.6rem 0 0.6rem;
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 0.55rem;
+  }
+  .key {
+    list-style: none;
+    margin: 0 0 1.2rem;
+    padding: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+  .key li { margin: 0 0 0.15rem; }
+  .related {
+    margin-top: 2.75rem;
+    padding: 1.35rem 1.15rem 0.35rem;
+    background: var(--panel);
+    border-top: 1px solid var(--border);
+  }
+  .related h2 {
+    margin-top: 0;
+    font-size: 1.15rem;
+    letter-spacing: 0.01em;
+  }
+  .related ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .related li {
+    margin: 0 0 1.1rem;
+    padding-bottom: 1.05rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+  .related li:last-child {
+    border-bottom: 0;
+  }
+  .site-foot {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 0 1.15rem 2.5rem;
+    color: var(--muted);
+    font-size: 0.82rem;
+  }
+  @media (min-width: 720px) {
+    html { font-size: 18px; }
+    .wrap { padding: 2rem 1.5rem 4rem; }
+    h1 { font-size: 2.35rem; }
+    .related { padding: 1.6rem 1.5rem 0.4rem; }
+  }
+  @media (max-width: 560px) {
+    .site-bar-inner { flex-direction: column; align-items: flex-start; }
+    h1 { font-size: 1.7rem; }
+  }
+
+</style>
+</head>
+<body>
+<header class="site-bar">
+  <div class="site-bar-inner">
+    <a class="brand" href="https://profiles.rice.edu/faculty/corey-m-abramson">Corey M. Abramson</a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="https://computationalethnography.org/">Home</a>
+      <a href="https://cmabramson.com/resources">Resources</a>
+      <a href="https://computationalethnography.org/writing/" aria-current="page">Writing</a>
+      <a href="https://computationalethnography.org/writing/from-carbon-paper-to-code/">Essay</a>
+    </nav>
+  </div>
+</header>
+
+<article class="wrap">
+<p><a class="crumb" href="https://computationalethnography.org/">&lt; Lab home</a>
+ · <a class="crumb" href="https://computationalethnography.org/writing/">Writing</a></p>
+<h1>Mapping the Cultural Work of People Living with Dementia and Their Care-Partners</h1>
+<p class="date">September 2026</p>
+<p class="byline">By <a href="https://profiles.rice.edu/faculty/corey-m-abramson">Corey Abramson</a></p>
+
+<p>Alzheimer’s disease affects an estimated 7.4 million Americans aged 65 and older. The effects ripple through families: unpaid care for loved ones with Alzheimer’s and other dementias was valued at more than $446 billion in 2025.</p>
+
+<p>To understand what this means in everyday life, our team carried out a four-year ethnography across three U.S. states, with over 300 site visits and 117 in-depth interviews in homes and communities. Our new article in <a href="https://www.sciencedirect.com/science/article/pii/S027795362600907X"><em>Social Science &amp; Medicine</em></a> combines close analysis of these experiences with network maps of shared meanings across over 30,000 paragraphs of natural language.</p>
+
+<p>We show people living with dementia and their care partners engaging in pragmatic sensemaking: drawing on medical frameworks and ideas about aging, relationships, and time to address concrete problems. Their responses challenged accounts that reduce dementia to “loss” or a “journey,” often emphasizing how it could be both at once.</p>
+
+<p>Alongside the hardship of lost memory, people described happiness, friendship, collective coping and innovation. One assisted living resident described recalling names with friends as “memory by committee.” Some families described the pain of watching loved ones change alongside gratitude for time together.</p>
+
+<p>Wealth, geography, access to specialists, and social support shaped what was possible. People drew on understandings that helped them cope, learning from others facing similar challenges to identify reasonable responses they could carry out.</p>
+
+<p>Families face brain changes, shifting relationships, and demands as intertwined, even as academic fields parse them. As we noted, life with dementia often forces families to “work across institutional silos while managing challenges spanning multiple domains.”</p>
+
+<p>Supporting them requires understanding their experiences, while addressing unevenly distributed barriers that limit options and working towards effective diagnosis and treatment. We might also improve interventions by learning from the ways people reason through this complexity. Those who invited us into their world showed how life alongside dementia is medical, social, economic, and psychological at once.</p>
+
+<p>With much gratitude to the people who shared their joys and tribulations, and the team who worked so hard on this project.</p>
+
+<p><a href="https://www.sciencedirect.com/science/article/pii/S027795362600907X">Read the article</a></p>
+
+<figure>
+<img src="fig1_semantic_network.jpg" alt="Semantic network of dementia meanings from all interviews. Colored nodes show health and medicine, social cognition, social roles, and change over time, linked by co-occurrence to the seed word dementia.">
+<figcaption>How medical, social, and temporal meanings connect in participants’ accounts of dementia. Figure 1. Semantic network: dementia meanings (all interviews, co-occurrence).</figcaption>
+</figure>
+<ul class="key">
+<li>Key: Orange = Health and Medicine</li>
+<li>Red = Social Cognition</li>
+<li>Teal = Social Roles</li>
+<li>Gray = Change over Time</li>
+<li>Yellow = Seed word</li>
+<li>Edges (lines) = Concept co-occurrence</li>
+<li>Black lines = Strongest cross-category connection</li>
+<li>Normalized cosine similarity with reweighted co-occurrence vectors, on a 1–5 scale.</li>
+</ul>
+
+<p>Article:<br>
+Abramson, Corey M., Kieran L. Turner, Ignacia Arteaga, Alma Hernández de Jesús, Brandi Ginn, Yuhan Nian, and Daniel Dohan. 2026. “Pragmatic Sensemaking: Mapping the Cultural Work of People Living with Dementia and Their Care-Partners.” <em>Social Science &amp; Medicine</em> 119829.<br>
+<a href="https://doi.org/10.1016/j.socscimed.2026.119829">https://doi.org/10.1016/j.socscimed.2026.119829</a></p>
+</article>
+
+<section class="related" aria-labelledby="related-heading">
+  <div class="wrap" style="padding-top:0;padding-bottom:2rem;">
+    <h2 id="related-heading">Related</h2>
+    <ul>
+      <li>Related announcement: Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. “Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation.” <a href="https://computationalethnography.org/writing/qualitative-research-in-an-era-of-ai/">blog</a></li>
+      <li>Related announcement: Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2026. “<a href="https://computationalethnography.org/writing/temporal-misalignment-and-unequal-agency/">Temporal Misalignment and Unequal Agency: What Terminal Cancer Patients Teach Us about Time and Inequality</a>.”</li>
+    </ul>
+  </div>
+</section>
+
+<p class="site-foot">Hosted by the <a href="https://computationalethnography.org/">Computational Ethnography Lab</a>.</p>
+</body>
+</html>
