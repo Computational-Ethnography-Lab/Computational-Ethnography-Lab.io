@@ -10,6 +10,8 @@ New Annual Review of Sociology article on Qualitative Research, AI and Computati
 
 New American Sociological Review article on Temporal Misalignment and Unequal Agency [here](https://journals.sagepub.com/doi/10.1177/00031224261448220)
 
+New Social Science & Medicine article on pragmatic sensemaking and life with dementia [here](https://doi.org/10.1016/j.socscimed.2026.119829) (blog [here](https://computationalethnography.org/writing/pragmatic-sensemaking/)).
+
 You can download the latest pre-release version of our CMAP* Visualization Toolkit [here](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit) or access an online version on [Google Collab](https://colab.research.google.com/github/Computational-Ethnography-Lab/cmap_visualization_toolkit/blob/v0.9.6/visualization_toolkit_final.ipynb).  
 _* CMAP = Cultural Mapping and Pattern Analysis_  
 [![GitHub release](https://img.shields.io/github/v/release/Computational-Ethnography-Lab/cmap_visualization_toolkit?include_prereleases)](https://github.com/Computational-Ethnography-Lab/cmap_visualization_toolkit/releases)
@@ -99,6 +101,7 @@ Co-Director, [Center for Computational Insights on Inequality and Society (CIISR
 ### Selected Publications on Computational Ethnography
 -   *Qualitative Research in an Era of AI Review and Framework:* Abramson, Corey M., Tara Prendergast, Zhuofan Li, and Daniel Dohan. 2026. "Qualitative Research in an Era of Artificial Intelligence: A Pragmatic Approach to Data Analysis, Workflow, and Computation." *Annual Review of Sociology* 52(1):35–61. [Link](https://www.annualreviews.org/content/journals/10.1146/annurev-soc-011824-104836) | [DOI](https://doi.org/10.1146/annurev-soc-011824-104836)
 -   *Time and Inequality at the End of Life:* Li, Zhuofan, Daniel Dohan, and Corey M. Abramson. 2026. "Temporal Misalignment and Unequal Agency: What Terminal Cancer Patients Teach Us about Time and Inequality." *American Sociological Review* 91(4):545–571. [Link](https://journals.sagepub.com/doi/10.1177/00031224261448220) | [DOI](https://doi.org/10.1177/00031224261448220)
+-   *Meaning-Making and Dementia:* Abramson, Corey M., Kieran L. Turner, Ignacia Arteaga, Alma Hernández de Jesús, Brandi Ginn, Yuhan Nian, and Daniel Dohan. 2026. "Pragmatic Sensemaking: Mapping the Cultural Work of People Living with Dementia and Their Care-Partners." *Social Science & Medicine* 409:119829. [Link](https://doi.org/10.1016/j.socscimed.2026.119829) | [Blog](https://computationalethnography.org/writing/pragmatic-sensemaking/)
 -   *Blog on Uses:* Abramson, Corey M. 2024. “From Carbon Paper to Code: Crafting Sociology in an Age of AI.” *Contexts* Blog. [Link](https://computationalethnography.org/writing/from-carbon-paper-to-code/)
 -   *Workflow*: Li, Zhuofan, and Corey M. Abramson. 2025. “Ethnography and Machine Learning: Synergies and New Directions.” Pp. 245–272 in *The Oxford Handbook of the Sociology of Machine Learning*, edited by C.Borch and J. P. Pardo-Guerra. Oxford: Oxford University Press. [Link](https://arxiv.org/pdf/2412.06087)
 -   *Principles*: Abramson, Corey M., Jacqueline Joslyn, Katharine A. Rendle, Sarah B. Garrett, and Daniel Dohan. 2018. “The Promises of Computational Ethnography.” *Ethnography* 19(2):254–284. [DOI](https://doi.org/10.1177/1466138117725340)
